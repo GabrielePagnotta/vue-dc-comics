@@ -1,7 +1,12 @@
 <template>
   <div id="app">
+    <!-- header -->
     <HeaderOne />
+    <!-- main -->
     <MainOne />
+    <!-- footer -->
+    <FooterOne />
+    <FooterTwo />
     
   </div>
 </template>
@@ -9,6 +14,8 @@
 <script>
 import HeaderOne from './components/header/HeaderOne.vue'
 import MainOne from './components/main/MainOne.vue'
+import FooterOne from './components/footer/FooterOne.vue'
+import FooterTwo from "./components/footer/FooterTwo.vue";
 
 
 
@@ -18,6 +25,8 @@ export default {
   components: {
    HeaderOne,
    MainOne,
+   FooterOne,
+   FooterTwo,
     
   }
 }

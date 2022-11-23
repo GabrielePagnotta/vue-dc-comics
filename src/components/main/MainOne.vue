@@ -27,6 +27,9 @@
         padding: 50px;
         align-items: center;
         justify-content: center;
+        position: relative;
+        z-index: 1;
+        
     }
 
     .size-img{
