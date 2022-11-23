@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <HeaderOne />
-    
+    <MainOne />
     
   </div>
 </template>
 
 <script>
 import HeaderOne from './components/header/HeaderOne.vue'
+import MainOne from './components/main/MainOne.vue'
 
 
 
@@ -16,6 +17,7 @@ export default {
   name: 'App',
   components: {
    HeaderOne,
+   MainOne,
     
   }
 }
