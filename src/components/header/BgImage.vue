@@ -1,6 +1,6 @@
 <template>
     <div class="background">
-        
+        <h2>CURRENT SERIES</h2>
     </div>
 </template>
 
@@ -16,7 +16,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
     
+    
+}
+
+h2{
+    position: relative;
+    background-color: #0C7CEC;
+    width: 15%;
+    padding:15px;
+    top: 470px;
+    left:80px;
+    font-size: 2rem;
+    text-align: center;
 }
 </style>

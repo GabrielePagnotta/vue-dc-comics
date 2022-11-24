@@ -8,6 +8,10 @@
             <CardsContent v-for="(element,index) in products" :key="index" :cards="element" />
             
         </div>
+        <div class="flex">
+          <button>LOAD MORE</button>
+        </div>
+        
     </div>
 </template>
 
@@ -115,7 +119,7 @@ import BgImage from "./BgImage.vue";
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 50px;
+    
     
 
 }
@@ -126,5 +130,17 @@ h1{
 
 .bg-black{
     background-color: rgb(41, 39, 39);
+}
+
+button{
+    background-color: #0C7CEC;
+    width: 10%;
+    padding:15px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin:50px 0px;
+   
 }
 </style>
