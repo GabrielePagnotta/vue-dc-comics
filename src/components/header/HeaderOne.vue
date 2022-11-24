@@ -30,12 +30,14 @@
 
 <script>
     import HeaderTwo from './HeaderTwo.vue'
+    
 
     export default {
 
        name:"HaderOne",
        components:{
-        HeaderTwo
+        HeaderTwo,
+        
        }
        
     }
